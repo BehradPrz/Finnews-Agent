@@ -1,0 +1,35 @@
+# Financial News Tracker - Requirements
+# Core dependencies for the financial news analysis application
+
+# Web framework
+streamlit>=1.28.0
+
+# OpenAI and AI libraries
+openai>=1.12.0
+openai-agents>=0.0.8
+
+# Data processing and validation
+pandas>=2.0.0
+numpy>=1.24.0
+pydantic>=2.5.0
+
+# Web scraping and requests
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+duckduckgo-search>=4.1.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Optional: For enhanced web scraping
+playwright>=1.40.0
+lxml>=4.9.0
+
+# Optional: For additional chart types
+plotly>=5.17.0
+altair>=5.1.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
